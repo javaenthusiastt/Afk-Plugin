@@ -1,0 +1,57 @@
+general:
+  int_seconds: 90 #-> Time before reward get given out...
+  amount: 1
+  afk_system: enabled #-> Disabling this will stop the whole afk system...
+
+messages:
+  received_reward: "&7You've received &b{amount} amounts of {item}&7."
+  item_name_reward: "AFK Voucher"
+
+options:
+  worldguard-api: disabled #-> Change To Enabled Or Disabled
+  worldguard-region: "none"
+
+errors:
+  skript_variable_not_found_fallback_item: DIAMOND
+  skript_variable_for_item: "{afkvoucher}"
+
+multipliers:
+  vip: 2.0
+  mvp: 4.0
+  mvp+: 6.0
+  echo: 8.0
+  custom: 10.0
+
+permissions:
+  custom: "idk.5"
+  echo: "idk.4"
+  mvp+: "idk.3"
+  mvp: "idk.2"
+  vip: "idk.1"
+
+progress_bar:
+  filled_color: '&2'
+  empty_color: '&7'
+  bracket_color: '&8'
+
+action_bar:
+  time_left_color: '&a'
+  seconds_and_minutes_color: '&a'
+  line_color: '&a'
+
+afk_region: #-> Will only work if worldguard api integration is disabled...
+  corner1:
+    world: "world"
+    x: 760
+    y: 60
+    z: -74
+  corner2:
+    world: "world"
+    x: 750
+    y: 68
+    z: -90
+
+
+#------------------------------#
+#------------------------------#
+#------------------------------#

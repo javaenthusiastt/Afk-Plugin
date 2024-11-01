@@ -1,0 +1,5 @@
+name: EchoBoxAFK
+version: '1.0'
+main: me.liam.echoBoxAFK.Main
+api-version: '1.20'
+softdepend: [Skript, WorldGuard]
