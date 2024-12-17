@@ -347,12 +347,4 @@ public final class Main extends JavaPlugin implements Listener {
     private boolean isAfk(Player player) {
         return afkPlayers.contains(player);
     }
-
-    private void applyInvisibility(Player player) {
-        player.addPotionEffect(new PotionEffect(PotionEffectType.INVISIBILITY, Integer.MAX_VALUE, 1, false, false));
-    }
-
-    private void removeInvisibility(Player player) {
-        player.removePotionEffect(PotionEffectType.INVISIBILITY);
-    }
 }
